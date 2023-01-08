@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header h1{
+    color: white;
+    position: relative;
+    left: 150px;
+    margin-top: 10px;
+}
+header nav li{
+    position: relative;
+    right: 150px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+
+}
+header nav li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+header nav li a:hover{
+    background-color: #314C6A;
+    padding:12px;
+    text-decoration:underline #FE8F00 ;
+}
+#sec1 .container{
+    display: flex;
+    Justify-Content:space-around;
+}
+#sec1 .container .wor #but{
+    background-color: rgb(0, 0, 0,0.2);
+    color: white;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-color: white;
+}
+#im{
+    flex-direction: column;
+    position: relative;
+    bottom:40px;
+    right: 30px;
+    
+}
+#im ,.wor{
+    padding-top: 10px;
+    padding: 60px;
+
+}
+#im #c{
+    background-color: rgb(0, 0, 0,0.9);
+    height: 70px;
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+}
+#sec2 article{
+    text-align: center;
+    margin: 200px;
+    font-size: 22px;
+} 
+#sec2 article #tab tr td{
+    border-color: rgb(163, 163, 163);
+    color: rgb(168, 163, 163);
+    
+}
+#sec2 article #tab tr td:hover{
+    background-color: #FE8F00;
+    padding: 5px;
+    color: white;
+}
+#sec2 #s{
+    display: flex;
+    Justify-Content:space-evenly;
+    padding: 10px;
+}
+#b{
+    align-items: center center;
+    margin-right: 50px;
+    
+    
+}
+.divs{
+    position: relative;
+    left: 100px;
+}
+#b .divs div{
+    display: flex;
+    text-align: center;
+    Justify-Content:space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+#for{
+    display: flex;
+    Justify-Content:space-evenly;
+
+}
+#for form input{
+    width: 400px;
+    height: 50px;
+    
+
+}
+ #r{
+    background-color: #FE8F00;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+}
